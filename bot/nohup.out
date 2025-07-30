@@ -1,0 +1,322 @@
+/home/user/night/database/db.py:215: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  "DELETE FROM bots WHERE bot_id = ?"
+🌐 [13:18:58] [DEBUG] asyncio: Using selector: EpollSelector
+🌐 [13:18:58] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea5f4a5c0>
+🌐 [13:18:58] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea5f4a5c0> completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea6002020>, 'SELECT bot_id FROM bots', [])
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea6002020>, 'SELECT bot_id FROM bots', []) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea60bed40>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea60bed40>) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea60bed40>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea60bed40>) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea6002020>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea6002020>) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea5f4a520>
+🌐 [13:18:58] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea5f4a520> completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea6002200>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea6002200>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea60bedc0>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea60bedc0>) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea60bedc0>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea60bedc0>) completed
+🌐 [13:18:58] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea6002200>)
+🌐 [13:18:58] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea6002200>) completed
+🌐 [13:18:59] [INFO] aiogram.dispatcher: Start polling
+INFO:     Started server process [4055]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+🌐 [13:18:59] [INFO] aiogram.dispatcher: Run polling for bot @nightttestbot id=8070109537 - 'Night'
+🌐 [13:19:15] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00900>
+🌐 [13:19:15] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00900> completed
+🌐 [13:19:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cb80>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:19:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cb80>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:19:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5564740>)
+🌐 [13:19:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5564740>) completed
+🌐 [13:19:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5564740>)
+🌐 [13:19:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5564740>) completed
+🌐 [13:19:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cb80>)
+🌐 [13:19:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cb80>) completed
+🌐 [13:19:16] [INFO] aiogram.event: Update id=125451350 is handled. Duration 653 ms by bot id=8070109537
+🌐 [13:19:18] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02520>
+🌐 [13:19:18] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02520> completed
+🌐 [13:19:18] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:19:18] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:19:18] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5548cc0>)
+🌐 [13:19:18] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5548cc0>) completed
+🌐 [13:19:18] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5548cc0>)
+🌐 [13:19:18] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5548cc0>) completed
+🌐 [13:19:18] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>)
+🌐 [13:19:18] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>) completed
+🌐 [13:19:18] [INFO] aiogram.event: Update id=125451351 is handled. Duration 221 ms by bot id=8070109537
+🌐 [13:19:20] [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7a4ea63f23f0>
+🌐 [13:19:20] [ERROR] asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7a4ea4be7830>, 1550316.262141292)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7a4ea6c1c320>
+🌐 [13:19:20] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02480>
+🌐 [13:19:20] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02480> completed
+🌐 [13:19:20] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d120>, 'UPDATE bots SET vbeaver_chat = ? WHERE bot_id = ?', (-1002587156235, 8070109537))
+🌐 [13:19:20] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d120>, 'UPDATE bots SET vbeaver_chat = ? WHERE bot_id = ?', (-1002587156235, 8070109537)) completed
+🌐 [13:19:20] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0d120>)
+🌐 [13:19:20] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0d120>) completed
+🌐 [13:19:20] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d120>)
+🌐 [13:19:20] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d120>) completed
+🌐 [13:19:21] [INFO] aiogram.event: Update id=125451352 is handled. Duration 695 ms by bot id=8070109537
+🌐 [13:19:29] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00e00>
+🌐 [13:19:29] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00e00> completed
+🌐 [13:19:29] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c6d0>, 'SELECT * FROM links WHERE creator = ?', (8050579105,))
+🌐 [13:19:29] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c6d0>, 'SELECT * FROM links WHERE creator = ?', (8050579105,)) completed
+🌐 [13:19:29] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea55659c0>)
+🌐 [13:19:29] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea55659c0>) completed
+🌐 [13:19:29] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55659c0>)
+🌐 [13:19:29] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55659c0>) completed
+🌐 [13:19:29] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c6d0>)
+🌐 [13:19:29] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c6d0>) completed
+🌐 [13:19:29] [INFO] aiogram.event: Update id=125451353 is handled. Duration 224 ms by bot id=8070109537
+🌐 [13:19:32] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00e00>
+🌐 [13:19:32] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00e00> completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (8050579105, 'Ravson_apk', None))
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (8050579105, 'Ravson_apk', None)) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02a20>
+🌐 [13:19:32] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02a20> completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00900>
+🌐 [13:19:32] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00900> completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT * FROM users WHERE user_id = ?', (8050579105,))
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT * FROM users WHERE user_id = ?', (8050579105,)) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02840>
+🌐 [13:19:32] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02840> completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d120>, 'SELECT * FROM links WHERE creator = ?', (8050579105,))
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d120>, 'SELECT * FROM links WHERE creator = ?', (8050579105,)) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fca6c0>) completed
+🌐 [13:19:32] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d120>)
+🌐 [13:19:32] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d120>) completed
+🌐 [13:19:32] [INFO] aiogram.event: Update id=125451354 is handled. Duration 559 ms by bot id=8070109537
+🌐 [13:24:06] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00fe0>
+🌐 [13:24:06] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00fe0> completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (7471183111, 'night_IT', None))
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (7471183111, 'night_IT', None)) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a023e0>
+🌐 [13:24:06] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a023e0> completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb0c40>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb0c40>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0c40>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0c40>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02660>
+🌐 [13:24:06] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02660> completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM users WHERE user_id = ?', (7471183111,))
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM users WHERE user_id = ?', (7471183111,)) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb0840>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb0840>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0840>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0840>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02480>
+🌐 [13:24:06] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02480> completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'SELECT * FROM links WHERE creator = ?', (7471183111,))
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'SELECT * FROM links WHERE creator = ?', (7471183111,)) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea5fb0640>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea5fb0640>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0640>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb0640>) completed
+🌐 [13:24:06] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>)
+🌐 [13:24:06] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>) completed
+🌐 [13:24:07] [INFO] aiogram.event: Update id=125451355 is handled. Duration 564 ms by bot id=8070109537
+🌐 [13:24:08] [INFO] aiogram.event: Update id=125451356 is handled. Duration 224 ms by bot id=8070109537
+🌐 [13:24:10] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea5f4a700>
+🌐 [13:24:10] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea5f4a700> completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (7471183111, 'night_IT', None))
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'INSERT OR IGNORE INTO users (user_id, username, referal) VALUES (?, ?, ?)', (7471183111, 'night_IT', None)) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02840>
+🌐 [13:24:10] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02840> completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c5e0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5515bc0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5515bc0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5515bc0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5515bc0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c5e0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00fe0>
+🌐 [13:24:10] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00fe0> completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM users WHERE user_id = ?', (7471183111,))
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM users WHERE user_id = ?', (7471183111,)) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5515bc0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5515bc0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5515bc0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5515bc0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea5f4a700>
+🌐 [13:24:10] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea5f4a700> completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM links WHERE creator = ?', (7471183111,))
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c130>, 'SELECT * FROM links WHERE creator = ?', (7471183111,)) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea55159c0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x7a4ea55159c0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55159c0>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55159c0>) completed
+🌐 [13:24:10] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>)
+🌐 [13:24:10] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c130>) completed
+🌐 [13:24:10] [INFO] aiogram.event: Update id=125451357 is handled. Duration 554 ms by bot id=8070109537
+🌐 [13:24:11] [INFO] aiogram.event: Update id=125451358 is not handled. Duration 1 ms by bot id=8070109537
+🌐 [13:24:12] [INFO] aiogram.event: Update id=125451359 is handled. Duration 230 ms by bot id=8070109537
+🌐 [13:24:14] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a027a0>
+🌐 [13:24:14] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a027a0> completed
+🌐 [13:24:14] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'INSERT OR IGNORE INTO links (creator, bot_id, endpoint) VALUES (?, ?, ?)', (7471183111, 8070109537, 'OwFWerKlPT'))
+🌐 [13:24:14] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c4f0>, 'INSERT OR IGNORE INTO links (creator, bot_id, endpoint) VALUES (?, ?, ?)', (7471183111, 8070109537, 'OwFWerKlPT')) completed
+🌐 [13:24:14] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c4f0>)
+🌐 [13:24:14] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0c4f0>) completed
+🌐 [13:24:14] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>)
+🌐 [13:24:14] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c4f0>) completed
+🌐 [13:24:14] [INFO] aiogram.event: Update id=125451360 is handled. Duration 281 ms by bot id=8070109537
+🌐 [13:24:15] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a022a0>
+🌐 [13:24:15] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a022a0> completed
+🌐 [13:24:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',))
+🌐 [13:24:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',)) completed
+🌐 [13:24:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5517840>)
+🌐 [13:24:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5517840>) completed
+🌐 [13:24:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5517840>)
+🌐 [13:24:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5517840>) completed
+🌐 [13:24:15] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>)
+🌐 [13:24:15] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>) completed
+INFO:     10.0.206.51:0 - "GET /privat/OwFWerKlPT HTTP/1.1" 200 OK
+🌐 [13:24:16] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a027a0>
+🌐 [13:24:16] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a027a0> completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d4e0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',))
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d4e0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',)) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea604ff40>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea604ff40>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea604ff40>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea604ff40>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d4e0>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d4e0>) completed
+INFO:     10.0.206.50:0 - "GET /privat/OwFWerKlPT HTTP/1.1" 200 OK
+🌐 [13:24:16] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a00e00>
+🌐 [13:24:16] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a00e00> completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d4e0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('privat.png',))
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0d4e0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('privat.png',)) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb2540>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb2540>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb2540>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb2540>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d4e0>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0d4e0>) completed
+INFO:     10.0.206.51:0 - "GET /privat/privat.png HTTP/1.1" 200 OK
+🌐 [13:24:16] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02c00>
+🌐 [13:24:16] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02c00> completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0dc60>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('callprivat.png',))
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0dc60>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('callprivat.png',)) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb3dc0>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5fb3dc0>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb3dc0>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5fb3dc0>) completed
+🌐 [13:24:16] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0dc60>)
+🌐 [13:24:16] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0dc60>) completed
+INFO:     10.0.206.50:0 - "GET /privat/callprivat.png HTTP/1.1" 200 OK
+🌐 [13:24:19] [DEBUG] config: OwFWerKlPT
+🌐 [13:24:19] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02de0>
+🌐 [13:24:19] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02de0> completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',))
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',)) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea4b21ec0>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea4b21ec0>) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea4b21ec0>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea4b21ec0>) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02fc0>
+🌐 [13:24:19] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02fc0> completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0cf40>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea4b21ec0>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea4b21ec0>) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea4b21ec0>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea4b21ec0>) completed
+🌐 [13:24:19] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>)
+🌐 [13:24:19] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0cf40>) completed
+🌐 [13:24:20] [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7a4ea4a2bd40>
+🌐 [13:24:20] [ERROR] asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7a4ea4be5550>, 1550615.810768904)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7a4ea645ff50>
+INFO:     10.0.206.50:0 - "POST /api/submit HTTP/1.1" 200 OK
+🌐 [13:24:25] [DEBUG] config: OwFWerKlPT
+🌐 [13:24:25] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a025c0>
+🌐 [13:24:25] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a025c0> completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0de40>, 'UPDATE links SET vbeaver = ? WHERE endpoint = ?', (7471183111, 'OwFWerKlPT'))
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0de40>, 'UPDATE links SET vbeaver = ? WHERE endpoint = ?', (7471183111, 'OwFWerKlPT')) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0de40>)
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x7a4ea4a0de40>) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0de40>)
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0de40>) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a03060>
+🌐 [13:24:25] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a03060> completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0de40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',))
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0de40>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',)) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea55cba40>)
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea55cba40>) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55cba40>)
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea55cba40>) completed
+🌐 [13:24:25] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0de40>)
+🌐 [13:24:25] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0de40>) completed
+🌐 [13:24:26] [INFO] aiogram.event: Update id=125451361 is handled. Duration 925 ms by bot id=8070109537
+🌐 [13:27:05] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02d40>
+🌐 [13:27:05] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02d40> completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',))
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT creator, bot_id, vbeaver, profit FROM links WHERE endpoint = ?', ('OwFWerKlPT',)) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5590e40>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5590e40>) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5590e40>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5590e40>) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing <function connect.<locals>.connector at 0x7a4ea4a02480>
+🌐 [13:27:05] [DEBUG] aiosqlite: operation <function connect.<locals>.connector at 0x7a4ea4a02480> completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,))
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x7a4ea4a0c8b0>, 'SELECT bot_status, creator, procent_per_work, total_profit, status, users_db, token, main_chat, vbeaver_chat FROM bots WHERE bot_id = ?', (8070109537,)) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5590e40>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x7a4ea5590e40>) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5590e40>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x7a4ea5590e40>) completed
+🌐 [13:27:05] [DEBUG] aiosqlite: executing functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>)
+🌐 [13:27:05] [DEBUG] aiosqlite: operation functools.partial(<built-in method close of sqlite3.Connection object at 0x7a4ea4a0c8b0>) completed
+🌐 [13:27:06] [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7a4ea4a28770>
+🌐 [13:27:06] [ERROR] asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7a4ea4a5c350>, 1550781.552548835)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7a4ea4a29eb0>
+INFO:     10.0.206.50:0 - "POST /api/confirm HTTP/1.1" 200 OK
